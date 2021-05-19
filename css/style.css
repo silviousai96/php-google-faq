@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.nav-top {
+    width: 97%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.nav-top h3 {
+    color: gray;
+    text-decoration: underline;
+}
+
+.nav-bottom {  
+    border-bottom: 1px solid grey;
+    padding: 10px 0;
+}
+
+.nav-bottom ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 24px;
+}
+
+.nav-bottom ul li {
+    padding-right: 25px;
+}
+
+.domande-risposta {
+    padding: 100px 150px;
+}
+
+.domande-risposta h2 {
+    color: gray;
+    padding-bottom: 20px;
+}
+
+.domande-risposta p {
+    padding-bottom: 80px;
+    line-height: 25px;
+}
+
+a {
+    text-decoration: none;
+}
